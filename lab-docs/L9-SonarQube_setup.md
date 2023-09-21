@@ -5,7 +5,8 @@
     Account --> my account --> Security --> Generate Tokens 
 
 3. On Jenkins create credentials 
-   Manage Jenkins --> manage credentials --> system --> Global credentials --> add credentials
+   Manage Jenkins --> manage credentials --> system --> Global credential
+s --> add credentials
  - Credentials type: `Secret text`
  - ID: `sonarqube-key`
 
